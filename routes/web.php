@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\Periodik::class, 'coba'])->name('halaman-utama');
+Route::get('/gabung',[App\Http\Controllers\Gabung::class, 'index'])->name('halaman-gabung');
 
 Auth::routes();
 

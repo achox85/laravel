@@ -1,0 +1,58 @@
+.boxlegend{
+    display: flex;
+    
+}
+
+.boxlegend .kolom{
+    width: 25%;
+    column-gap: 10px;
+}
+
+.listlegend{
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.listlegend::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(76, 100, 235);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.listlegend.color1::before{
+    background-color: #1b945b;
+}
+.listlegend.color2::before{
+    background-color: #EDCE77;
+}
+.listlegend.color3::before{
+    background-color: #E9B683;
+}
+.listlegend.color4::before{
+    background-color: #FF8D8D;
+}
+.listlegend.color5::before{
+    background-color: #8CB9F3;
+}
+.listlegend.color6::before{
+    background-color: #BAC1CB;
+}
+.listlegend.color7::before{
+    background-color: #AE9DFC;
+}
+.listlegend.color8::before{
+    background-color: #f8a9e0;
+}
+.listlegend.color9::before{
+    background-color: #00b35f;
+}
+.listlegend.color10::before{
+    background-color: #2b39fc;
+}
