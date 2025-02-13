@@ -56,3 +56,64 @@
 .listlegend.color10::before{
     background-color: #2b39fc;
 }
+
+.box{
+    display: flex;
+     column-gap: 15px;
+     flex-wrap: wrap;
+     row-gap: 15px;
+     justify-content: end;
+}
+
+.box .kol1{
+    min-height: 60px;
+    width: 16.666%;
+}
+.box .kol2,.box .kol3{
+    min-height: 30px;
+    width: calc(83.333% - 15px);
+}
+
+.box .baris {
+    display: flex;
+    align-items: flex-start;
+}
+
+.kol1 .baris .kotakunsur{
+    width: 33.333%;
+    border: 1px solid rgba(0,0,0,0);
+    position: relative;
+    min-height: 70px;
+}
+.kol2 .baris .kotakunsur,.kol3 .baris .kotakunsur{
+    width: 6.666%;
+    border: 1px solid rgba(0,0,0,0);
+    position: relative;
+    min-height: 64px;
+}
+
+.unsur{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.nomor{
+    font-size: 0.65em;
+}
+
+.simbol{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.nama{
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.nonlogam{
+    background-color: var(--nonlogam);
+}

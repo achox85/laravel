@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link href="{{ asset('css/warna.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('font/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/tes.css') }}" rel="stylesheet">

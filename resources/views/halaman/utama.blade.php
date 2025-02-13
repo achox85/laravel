@@ -5,7 +5,178 @@
 <div class="kolomkiri">
     <h3>Media</h3>
     <div class="box">
-        
+        <div class="kol1">
+            <div class="baris">
+               <div class="kotakunsur nonlogam">
+                  @include('parts.unsur',['nomor'=>1,'unsur'=>$unsur])
+               </div>
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+            </div>
+            <div class="baris">
+               <div class="kotakunsur">@include('parts.unsur',['nomor'=>3,'unsur'=>$unsur])</div>
+               <div class="kotakunsur">@include('parts.unsur',['nomor'=>4,'unsur'=>$unsur])</div>
+               <div class="kotakunsur"></div>
+            </div>
+            <div class="baris">
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+            </div>
+            <div class="baris">
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+            </div>
+            <div class="baris">
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+            </div>
+            <div class="baris">
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+            </div>
+            <div class="baris">
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+               <div class="kotakunsur"></div>
+            </div>
+        </div>
+        <div class="kol2">
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur nonlogam"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+               <div class="baris">
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+                  <div class="kotakunsur"></div>
+               </div>
+        </div>
+        <div class="kol3">
+        <div class="baris">
+                     <div class="kotakunsur"></div>
+                     <div class="kotakunsur"></div>
+                     <div class="kotakunsur"></div>
+               </div>
+        <div class="baris">
+                     <div class="kotakunsur"></div>
+                     <div class="kotakunsur"></div>
+                     <div class="kotakunsur"></div>
+               </div>
+        </div>
     </div>
     <div class='boxlegend'>
      <div class='kolom'>
@@ -29,7 +200,7 @@
     </div>
 </div>
 <div class="kolomkanan">
-  <h3>Informasi</h3>
+   <h3>Informasi</h3>
 </div>
 </div>
 
