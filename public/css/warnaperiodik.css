@@ -1,0 +1,74 @@
+.nonlogam{
+    background-color: var(--nonlogam);
+}
+.logamalkali{
+    background-color: var(--logamalkali);
+}
+.logamalkalitanah{
+    background-color: var(--logamalkalitanah);
+}
+.aktinids{
+    background-color: var(--aktinids);
+}
+.nonlogamreaktif{
+    background-color: var(--nonlogamreaktif);
+}
+.properti{
+    background-color: var(--properti);
+}
+.metaltransisi{
+    background-color: var(--metaltransisi);
+}
+.gasmulia{
+    background-color: var(--gasmulia);
+}
+.logamposttransisi{
+    background-color: var(--logamposttransisi);
+}
+.lantanida{
+    background-color: var(--lantanida);
+}
+.kotakunsur .popup{
+    box-shadow: 0px 0px 8px 1px black;
+}
+.kotakunsur.lantanida .popup{
+    background-color: var(--lantanida);
+    z-index: 500;
+}
+.kotakunsur.logamalkali .popup{
+    background-color: var(--logamalkali);
+    z-index: 500;
+}
+.kotakunsur.logamalkalitanah .popup{
+    background-color: var(--logamalkalitanah);
+    z-index: 500;
+
+}
+.kotakunsur.aktinids .popup{
+    background-color: var(--aktinids);
+    z-index: 500;
+}
+.kotakunsur.nonlogamreaktif .popup{
+    background-color: var(--nonlogamreaktif);
+    z-index: 500;
+}
+.kotakunsur.properti .popup{
+    background-color: var(--properti);
+    z-index: 500;
+}
+.kotakunsur.metaltransisi .popup{
+    background-color: var(--metaltransisi);
+    z-index: 500;
+}
+.kotakunsur.gasmulia .popup{
+    background-color: var(--gasmulia);
+    z-index: 500;
+}
+.kotakunsur.logamposttransisi .popup{
+    background-color: var(--logamposttransisi);
+    z-index: 500;
+}
+.kotakunsur.nonlogam .popup{
+    background-color: var(--nonlogam);
+    z-index: 500;
+}

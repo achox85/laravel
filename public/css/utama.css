@@ -27,34 +27,34 @@
 }
 
 .listlegend.color1::before{
-    background-color: #1b945b;
+    background-color: var(--logamalkali);
 }
 .listlegend.color2::before{
-    background-color: #EDCE77;
+    background-color: var(--nonlogam);
 }
 .listlegend.color3::before{
-    background-color: #E9B683;
+    background-color: var(--aktinids);
 }
 .listlegend.color4::before{
-    background-color: #FF8D8D;
+    background-color: var(--logamalkalitanah);
 }
 .listlegend.color5::before{
-    background-color: #8CB9F3;
+    background-color: var(--nonlogamreaktif);
 }
 .listlegend.color6::before{
-    background-color: #BAC1CB;
+    background-color: var(--properti);
 }
 .listlegend.color7::before{
-    background-color: #AE9DFC;
+    background-color: var(--metaltransisi);
 }
 .listlegend.color8::before{
-    background-color: #f8a9e0;
+    background-color: var(--gasmulia);
 }
 .listlegend.color9::before{
-    background-color: #00b35f;
+    background-color: var(--logamposttransisi);
 }
 .listlegend.color10::before{
-    background-color: #2b39fc;
+    background-color: var(--lantanida);
 }
 
 .box{
@@ -89,13 +89,15 @@
     width: 6.666%;
     border: 1px solid rgba(0,0,0,0);
     position: relative;
-    min-height: 64px;
+    min-height: 70px;
 }
 
 .unsur{
     display: flex;
     flex-direction: column;
     margin: 3px;
+    position: relative;
+    color: white;
 }
 
 .nomor{
@@ -114,6 +116,46 @@
     text-align: center;
 }
 
-.nonlogam{
-    background-color: var(--nonlogam);
+.unsur .popup{
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    padding: 5px;
+}
+
+.unsur:hover .popup{
+    opacity: 1;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    top: -20px;
+}
+
+.popup .atomic{
+    font-size: 0.675em;
+}
+
+.c-row{
+display: flex;
+}
+
+.c-row .col-nomor{
+    width: 30%;
+}
+
+.c-row .col-atomic{
+    width: 70%;
+}
+
+.unsur .popup .nama{
+    font-size: 10pt;
+}
+
+.unsur .popup .simbol{
+    font-size: 1.89em;
 }

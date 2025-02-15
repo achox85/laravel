@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Tugas Periodik') }}</title>
-    @yield('css')
+   
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -18,10 +18,15 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/warna.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/warna.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/warnaperiodik.css') }}" rel="stylesheet">
     <link href="{{ asset('font/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/tes.css') }}" rel="stylesheet">
+    @yield('css')
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    @yield('js')
+
 </head>
 <body>
     <div id="app">

@@ -126,3 +126,15 @@ a.icn {
     width: 100%;
     min-height: 200px;
 }
+
+.text-right{
+    text-align: right;
+}
+
+.hidden{
+    display: none;
+}
+
+.kolomkiri{
+    border: 1px solid black;
+}

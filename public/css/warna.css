@@ -1,3 +1,16 @@
 :root{
-    --nonlogam:#8CB9F3;
+    --nonlogam:#d6b96a;
+    --logamalkali:#4fce93;
+    --logamalkalitanah:#FF8D8D;
+    --aktinids:#B98252;
+    --nonlogamreaktif:#8CB9F3;
+    --properti:#9098a3;
+    --metaltransisi:#AE9DFC;
+    --gasmulia:#f8a9e0;
+    --logamposttransisi:#038649;
+    --lantanida:#6d77f7;
+}
+
+.texttengah{
+    text-align: center;
 }
