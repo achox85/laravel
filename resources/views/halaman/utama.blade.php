@@ -7,9 +7,7 @@
     <div class="box">
         <div class="kol1">
             <div class="baris">
-               <div class="kotakunsur {{ Obj::warna(1,$unsur)->namakelas }}">
-                  @include('parts.unsur',['nomor'=>1,'unsur'=>$unsur])
-               </div>
+               <div class="kotakunsur {{ Obj::warna(1,$unsur)->namakelas }}">@include('parts.unsur',['nomor'=>1,'unsur'=>$unsur])</div>
                <div class="kotakunsur"></div>
                <div class="kotakunsur"></div>
             </div>
@@ -231,8 +229,8 @@
 @endsection
 
 @section('css')
-<link href="{{ asset('css/utama.css') }}" rel="stylesheet">
+<link href="{{ asset('css/utama.css').'?v='.Config('app.ver') }}" rel="stylesheet">
 @endsection
 @section('js')
-<script src="{{ asset('js/halaman/utama.js') }}"></script>
+<script src="{{ asset('js/halaman/utama.js').'?v='.Config('app.ver') }}"></script>
 @endsection

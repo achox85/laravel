@@ -1,12 +1,16 @@
 <div class="modal fade" id="popunsur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-body">
        <div class="bg">
        <h1 id="namaunsur">Hidrogen</h1>
        <p id="lbjnsunsur">Jenis Unsur</p>
        <div class="texttengah">
-       <img src='{{ asset("gambar/demo.jpg") }}'>
+              <div class="big-unsur">
+                  <small class="nmr">1</small>
+                  <h1 class="kode">H</h1>
+                  <div class='nama'>Hidrogen</div>
+              </div>
         </div>
        <p id="lbdsc">Sulfur is a chemical element; it has symbol S and atomic number 16. It is abundant, multivalent and nonmetallic. Under normal conditions, sulfur atoms</p>
        <div class="bg">

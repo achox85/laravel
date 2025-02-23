@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [App\Http\Controllers\Periodik::class, 'coba'])->name('halaman-utama');
 Route::get('/gabung',[App\Http\Controllers\Gabung::class, 'index'])->name('halaman-gabung');
 
+Route::post('/sugesti',[App\Http\Controllers\Gabung::class, 'sugesti']);
+Route::post('/load/senyawa',[App\Http\Controllers\Gabung::class, 'senyawa']);
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

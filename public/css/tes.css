@@ -1,4 +1,6 @@
-
+#app{
+    margin: 30px;
+}
 .kotak-header{
  
 display: flex;
@@ -37,7 +39,7 @@ ul.list li a{
 .difkanan{
 width: 30%;
 justify-content: flex-end;
-column-gap: 30px;
+column-gap: 15px;
 }
 
 .tengah{
@@ -135,6 +137,143 @@ a.icn {
     display: none;
 }
 
-.kolomkiri{
-    border: 1px solid black;
+.kolomkanan .b{
+
+    background-color: #E6C9FF;
+
+}
+
+.kotak .kolomkiri .a{
+    width: 60px;
+    height: 60px;
+}
+
+.b{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.b1{
+    min-height: 300px;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sny{
+    width: 30%;
+    padding: 5px 10px;
+}
+
+.elm{
+    width: 70%;
+    padding: 5px 10px;
+}
+
+.dsbh{
+    align-items: flex-start; 
+}
+
+.kolombawah{
+    margin-top: 30px;
+}
+
+
+.c{
+    min-height: 270px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-right: 25px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.a{
+    height: 64px;
+    display: flex;
+    background-color: #E7ECF3;
+    width: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskripsi{
+    min-height: 221px;
+    background-color: #a980ca;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.big{
+   font-size: 40px;
+}
+
+.pt1{
+    background-color: #F0E7F9 ;
+    max-height: 45px;
+    width: 100%;
+    display: flex;
+}
+.pt1:hover{
+    cursor: pointer;
+    background-color: #a980ca;
+}
+
+.snyw{
+   width: 30%;
+   font-size: smaller;
+   padding: 5px 10px;
+}
+
+.elmt{
+   width: 70%;
+   padding: 5px 10px;
+}
+
+
+.big-unsur{
+    width: 120px;
+  display: inline-block;
+  border: 1px solid #909090;
+  padding: 15px;
+}
+
+.big-unsur .nama{
+    font-size: 12pt;
+}
+
+.mh80{
+    min-height: 115px;
+}
+
+.thumb-photo{
+    width: 270px;
+    position: relative;
+    height: 270px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.thumb-photo .wrp{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.thumb-photo .wrp img{
+width: 100%;
+height: 100%;
+object-fit: cover;
 }

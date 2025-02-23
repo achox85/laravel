@@ -1,0 +1,61 @@
+.unsur .simbol{
+font-weight: bold;
+text-align: center;
+
+}
+
+.unsur .nama{
+    font-size: 0.675em;    
+    text-align: center;
+}
+
+.unsur .nomor{
+    font-size: 0.675em;    
+}
+
+.unsur{
+    color: white;
+    padding: 5px;
+    border: 3px solid #C2C2C2;
+    position: relative;
+}
+
+.pilihan{
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pilihan .kotakunsur {
+    width: 7%;
+    height: auto;
+    min-width: 75px;
+}
+
+.hapus{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: none;
+}
+
+.hapus a{
+    text-decoration: none;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    line-height: 18px;
+    background-color: #fadfff;
+    text-align: center;
+}
+
+.unsur:hover .hapus{
+    display: block;
+}
+
+.result{
+    width: 100%;
+}

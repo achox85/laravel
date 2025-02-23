@@ -30,12 +30,15 @@
      </ul>
    </div>
    <div class="difkanan tengah"> 
-        <div class="pencarian"> 
+        <!-- <div class="pencarian"> 
                 <span class="icon-search"></span>  
                 <input type="text"/> 
-        </div>
-        <a class="icn" href='javascript:'> 
-            <i class="icon-cog"></i>
+        </div> -->
+        <a class="icn about" href='javascript:'> 
+            <i class="icm icon-user-solid-circle"></i>
+        </a>
+        <a class="icn play" href='javascript:'> 
+            <i class="icm icon-play"></i>
         </a>
    </div>
 </div>

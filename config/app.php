@@ -232,5 +232,7 @@ return [
         'Obj' => App\Helper\Obj::class
 
     ],
-
+    'kelas'=>env('KELAS',"Kelas X1.8"),
+    'nisn'=>env('NISN',"0"),
+    'ver'=>'0.1'
 ];

@@ -139,7 +139,9 @@
 .popup .atomic{
     font-size: 0.675em;
 }
-
+.unsur:hover .popup:hover{
+    cursor: pointer;
+}
 .c-row{
 display: flex;
 }
@@ -159,3 +161,5 @@ display: flex;
 .unsur .popup .simbol{
     font-size: 1.89em;
 }
+
+

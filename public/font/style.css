@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'periodik';
-  src:  url('fonts/periodik.eot?dhg4m0');
-  src:  url('fonts/periodik.eot?dhg4m0#iefix') format('embedded-opentype'),
-    url('fonts/periodik.ttf?dhg4m0') format('truetype'),
-    url('fonts/periodik.woff?dhg4m0') format('woff'),
-    url('fonts/periodik.svg?dhg4m0#periodik') format('svg');
+  src:  url('fonts/periodik.eot?gihwvu');
+  src:  url('fonts/periodik.eot?gihwvu#iefix') format('embedded-opentype'),
+    url('fonts/periodik.ttf?gihwvu') format('truetype'),
+    url('fonts/periodik.woff?gihwvu') format('woff'),
+    url('fonts/periodik.svg?gihwvu#periodik') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -55,6 +55,15 @@
 .icon-library:before {
   content: "\e909";
 }
+.icon-pause:before {
+  content: "\e90b";
+}
+.icon-play:before {
+  content: "\e90c";
+}
 .icon-search:before {
   content: "\e90a";
+}
+.icon-user-solid-circle:before {
+  content: "\e90d";
 }

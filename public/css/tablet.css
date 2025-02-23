@@ -1,0 +1,42 @@
+#app{
+    min-width: 800px;
+    margin: 10px;
+}
+.awan{
+    width:100%;
+    min-width: 115px;
+}
+.judul{
+    font-size: 1em;
+    bottom: 4px;
+}
+.ul.list li.aktif a{
+    padding: 5px 20px;
+}
+
+ul.list{
+    position: relative;
+    display: block;
+    height: 28px;
+}
+
+.pilihan .kotakunsur{
+    min-width: 75px;
+}
+
+.c{
+    padding: 10px;
+}
+.b{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.big{
+    font-size: 14pt;
+}
+.unsur .popup .simbol{
+    font-size: 1.2em;
+}
+.kol2 .baris .kotakunsur, .kol3 .baris .kotakunsur{
+    min-height: 70px;
+}
